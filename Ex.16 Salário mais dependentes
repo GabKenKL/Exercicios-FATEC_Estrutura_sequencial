@@ -1,0 +1,27 @@
+#16. Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o
+#número de descendentes. Calcule o salário que serão as horas trabalhadas x o valor por hora.
+#Calcule o salário líquido (= Salário Bruto – desconto). A cada dependente será acrescido R$ 100
+#no Salário Líquido. Exiba o salário a receber.
+print("Cálculo do salário bruto...")
+
+print("Digite a quantidade de horas trabalhadas:")
+horas_trabalhadas = float(input())
+
+print("Digite o valor por hora:")
+valor_hora = float(input())
+
+salario_bruto = horas_trabalhadas * valor_hora
+
+print("O salário bruto equivale a: R$" , salario_bruto)
+print("Para o cálculo do salário líquido, digite o número do percentual de desconto:")
+desconto = float(input())
+numero_percentual = desconto/100
+
+salario_liquido = salario_bruto - (salario_bruto * numero_percentual)
+
+print("O salário líquido equivale a: R$" , salario_liquido)
+print("Agora digite o número de dependentes:")
+dependentes = int(input())
+salario_liquido = salario_liquido + (dependentes * 100)
+
+print("O salário a receber, com o desconto e os dependentes, sabendo que para cada descendente aumenta o salário em R$100, equivale a: R$" , salario_liquido)
