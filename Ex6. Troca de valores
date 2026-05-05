@@ -1,0 +1,21 @@
+print("Troca entre valores:")
+print("Digite qual valor está em X:")
+
+X = float(input())
+
+print("") #print estético
+
+print("Agora digite o valor de y que será trocado:")
+
+Y = float(input())
+
+#Processo de troca, auxiliado por A.
+A = X
+X = Y
+Y = A
+
+print("") #print estético
+
+print("Observe o resultado:")
+print("x =" , X)
+print("y =" , Y)
