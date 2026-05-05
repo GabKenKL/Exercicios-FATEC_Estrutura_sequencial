@@ -1,0 +1,13 @@
+print("Soma dos quadrados de dois números inteiros:")
+print("digite dois números para efetuar a operação:")
+
+print("Número 1:")
+x = int(input())
+
+print("Número 2:")
+y = int(input())
+
+#Calculando a soma dos quadrados:
+operação = x**2 + y**2
+
+print("A soma dos quadrados equivale a:" , operação)
