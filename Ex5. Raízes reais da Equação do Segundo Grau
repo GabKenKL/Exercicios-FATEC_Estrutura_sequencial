@@ -1,0 +1,23 @@
+print("Cálculo das raízes de uma equação do segundo grau")
+print("Digite os coeficientes A, B e C:")
+
+print("A:")
+A = float(input())
+
+print("B:")
+B = float(input())
+
+print("C:")
+C = float(input())
+
+#Fórmula de Bhaskara
+DISCRIMINANTE = B*B - 4*A*C
+
+X1 = (-B + (DISCRIMINANTE)**0.5) / (2*A)
+X2 = (-B - (DISCRIMINANTE)**0.5) / (2*A)
+
+print(" ") #print estético
+
+print("O valor das raízes são:")
+print("X¹ =" , X1)
+print("X² =" , X2)
