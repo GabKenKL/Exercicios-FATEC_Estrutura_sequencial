@@ -1,0 +1,18 @@
+#17. Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l. Receber o tempo de percurso e a velocidade média.
+print("Calculando a quantidade de litros gastos numa viagem...")
+print("NOTA: O automóvel faz 12 km/l")
+km_por_litro = 12
+print("Digite o tempo do percurso em horas:")
+tempo = float(input())
+
+print("Digite a velocidade média em km/h:")
+velocidade = float(input())
+
+#Cáculo da distância percorrida:
+distancia = velocidade*tempo
+
+#Cálculo da quantidade de litros gastos:
+litros = distancia/km_por_litro
+
+print("A quantidade de litros gastos na viagem é de:" , round(litros, 2) , "litros.")
+
