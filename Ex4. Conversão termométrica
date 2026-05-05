@@ -1,0 +1,8 @@
+print("Conversão termométrica de °C para °F:")
+print("Digite o valor X°C a ser convertido:")
+
+celcius = float(input())
+
+fahrenheit = (9*celcius+160) / 5
+
+print("O valor convertido é:" , fahrenheit , "°F")
