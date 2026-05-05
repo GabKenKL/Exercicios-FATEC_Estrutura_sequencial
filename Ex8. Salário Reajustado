@@ -1,0 +1,8 @@
+print("Reajuste salarial de 15%")
+print("Abaixo, indique o salário do funcionário:")
+
+salário = float(input())
+
+salarioR = salário * 1.15
+
+print("O salário após reajuste equivale a: R$" , salarioR)
