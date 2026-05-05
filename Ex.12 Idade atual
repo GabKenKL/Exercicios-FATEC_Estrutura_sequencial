@@ -1,0 +1,15 @@
+#Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade e quantos anos terá daqui a 17 anos.
+print("Cálculo da idade atual e idade daqui a 17 anos:")
+
+print("Digite o seu ano de nascimento:")
+ano_nascimento = float(input())
+
+print("Digite o ano atual:")
+Ano_atual = float(input())
+
+Idade_atual = Ano_atual - ano_nascimento
+Idade_futura = Idade_atual + 17
+
+print() #print estético
+print("Calculando idade atual e daqui a 17 anos...")
+print("Sua idade atual é de:" , Idade_atual , "e sua idade daqui a 17 anos será de:" , Idade_futura , "anos.")
