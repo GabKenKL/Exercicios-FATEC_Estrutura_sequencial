@@ -1,0 +1,15 @@
+print("Reajuste salarial")
+print("Abaixo, indique a porcentagem do reajuste e o salário a ser reajustado:")
+
+print("Porcentagem, apenas o número:")
+porcentagem = float(input())
+porc = porcentagem / 100
+
+print("") #print para espaçamento
+print("Salário:")
+salário = float(input())
+
+salarioR = salário * (1 - porc)
+
+print("") #print para espaçamento
+print("O salário após reajuste equivale a: R$" , salarioR)
