@@ -2,7 +2,7 @@
 print("Calculando quantos dias durará o alimento com base na quantidade em kg e consumo diário de 50g...")
 
 print("Digite a quantidade em quilos do alimento:")
-kg = float(input())
+kg = float(input()) 
 
 #conversão de kg para g:
 g = kg*1000
