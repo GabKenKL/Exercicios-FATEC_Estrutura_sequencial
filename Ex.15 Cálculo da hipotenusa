@@ -1,0 +1,14 @@
+#15. Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.
+print("Cálculo da hipotenusa de um triângulo retângulo.")
+
+print("Digite o valor do primeiro cateto do triângulo:")
+cateto1 = float(input())
+
+print("Digite o valor do segundo cateto do triângulo:")
+cateto2 = float(input())
+
+#Cálculo da hipotenusa:
+hip**2 = cateto1**2 + cateto2**2
+
+print() #print estético
+print("O valor da hipotenusa do triângulo retângulo de catetos" , cateto1 , "e" , cateto2 , "equivale a:" , hip)
