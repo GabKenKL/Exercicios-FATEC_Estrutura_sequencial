@@ -1,0 +1,17 @@
+print("Cálculo do volume de um paralelepípedo.")
+print("Digite os valores de altura, largura e comprimento:")
+print("") #print estético
+
+print("Altura: ")
+Altura = float(input())
+
+print("Largura: ")
+Largura = float(input())
+
+print ("comprimento ")
+Comprimento = float(input())
+
+volume = Altura*Largura*Comprimento
+
+print("") #print estético
+print("O volume do paralelepípedo equivale a:" , volume)
